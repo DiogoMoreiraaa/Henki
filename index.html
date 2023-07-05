@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Início</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" id="Henki">Henki</a>
+
+            <ul id="navbar">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="/html/loja.html">Loja</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+
+            <div id="nav-icons">
+                <i id="carro" onclick="carrinho" class='bx bx-cart' ></i>
+                <a href="/html/login.html"><i class='bx bxs-user-circle'></i></a>
+            </div>
+        </header>
+    <main>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h1>Henki pergunta:</h1>
+              <p>Pelo o que parece, você não está logado(a), gostaria de se logar?</p>
+              <div id="botoes-container">
+                <div id="botoes">
+                  <a href="/html/login.html"><button id="sim">Sim</button></a>
+                  <button id="nao" class="fechar">Não</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <section id="menu">
+            <div id="container">
+                <div class="inicio">
+                    <h1>Henki One</h1>
+                    <p>O primeiro lançamento da Henki e já está em primeiríssimo lugar no rank de celular custo benefício </p>
+                    <button>Verificar</button>
+                </div>
+                <div class="celular">
+                    <img src="/img/celular.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="lancamentos">
+            <h1>Produtos Recentes</h1>
+            <div id="container-lancamentos">
+                <div id="produtos">
+                        <div class="produto">
+                            <div id="henkiplus">
+                                <img src="../img/Henkiplus.png" alt="">
+                                <h1>Henki One+</h1>
+                            </div>
+                        </div>
+                        <div class="produto">
+                        <div id="henkimega">
+                            <img src="../img/Henkimega.png" alt="">
+                            <h1>Henki Mega</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="/js/main.js"></script>
+</body>
+</html>

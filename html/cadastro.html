@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cadastro.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Login Henkia</title>
+</head>
+<body>
+    <header>
+    <a href="../index.html" id="Henki">Henki</a>
+
+        <ul id="navbar">
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="loja.html">Loja</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+
+        <div id="nav-icons">
+            <i class='bx bx-cart' ></i>
+            <i class='bx bxs-user-circle'></i>
+        </div>
+    </header>
+    <main>
+        <section id="login-container">
+            <div id="login">
+                <div id="foto-login">
+                    <img src="../img/logo.png" alt="">
+                </div>
+                <div id="form-login">
+                    <div id="fundo-form">
+                        <h1>LOGIN</h1>
+                    <form action="../index.html" method="get">
+                        
+                            <div class="textfield">
+                                <label for="Nome">Usuário</label>
+                                <input type="text" name="Nome" id="Inome" placeholder="Digite um nome de usuário">
+                            </div>
+                            <div class="textfield">
+                                <label for="Email">Email</label>
+                                <input type="email" name="Email" id="iEmail" placeholder="Digite seu email">
+                            </div>
+                            <div class="textfield">
+                                <label for="Senha">Senha</label>
+                                <input type="password" name="Senha" id="iSenha" placeholder="Digite sua senha">
+                            </div>
+                            <div class="textfield">
+                                <label for="confirmar">Confirme a senha</label>
+                                <input type="password" name="Senha" id="iSenha" placeholder="Confirme sua senha">
+                            </div>
+                            <div id="opcoes">
+                            <input type="submit" value="Logar">
+                            <a href="esqueci.php">Esqueci a senha</a>
+                            </div>
+                            <p>Ja tem uma conta na Henki?<a href="login.html">Logar</a></p>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

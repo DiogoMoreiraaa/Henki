@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #EEB3FF;
+}
+
+header {
+    background-color: #CB6CE6;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 8%;
+}
+
+#Henki {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+#navbar a {
+    margin: 0 30px;
+    font-size: 15pt;
+    color: black;
+}
+
+#nav-icons{
+    display: flex;
+    align-items: center;
+}
+
+#nav-icons i {
+    margin-right: 25px;
+    font-size: 25pt;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#nav-icons i:hover {
+    color: white;
+}
+
+#container-lancamentos {
+    height: 90vh;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#produtos {
+    height: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produto {
+    background-color: rgb(247, 247, 247);
+    height: 80%;
+    width: 19%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+#henkiplus {
+    height: 100%;
+    margin-top: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.foto {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto img {
+    width: 200px;
+}
+
+.nome {
+    font-size: 8pt;
+    text-align: left;
+}
+
+.titulo {
+    font-size: 15pt;
+}
+
+.preco {
+    padding: 10px 0px;
+}
+
+#henkimega {
+    height: 100%;
+    margin-top: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
